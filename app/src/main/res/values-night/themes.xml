@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CarWash" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Widget.CarWash.TextInputLayout.CustomStyle" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="hintTextColor">@color/cardview_dark_background</item>
+        <item name="android:textColor">@color/cardview_dark_background</item>
+        <item name="android:textColorHintInverse">@color/cardview_dark_background</item>
+    </style>
+
+    <style name="Widget.CarWash.TextInputEditText.CustomStyle" parent="Widget.Material3.TextInputEditText.FilledBox">
+        <item name="backgroundTint">@color/cardview_light_background</item>
+        <item name="android:textColor">@color/cardview_dark_background</item>
+        <item name="android:textColorHintInverse">@color/cardview_dark_background</item>
+    </style>
+
+    <item name="IconColor" type="color">@color/white</item>
+    <item name="SpinnerColor" type="color">@color/cardview_light_background</item>
+    <item name="QrCodeBackgroundColor" type="color">@color/cardview_light_background</item>
+    <item name="QrCodeColor" type="color">@color/cardview_dark_background</item>
+
+    <style name="Widget.CarWash.MaterialButton.CustomStyle" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/cardview_light_background</item>
+        <item name="android:textColor">@color/cardview_dark_background</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+    <style name="Widget.CarWash.SpinnerStyle.CustomStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:background">@drawable/spinner_background</item>
+        <item name="android:dropDownSelector">?attr/selectableItemBackground</item>
+        <item name="android:popupBackground">@color/cardview_light_background</item>
+        <item name="android:popupElevation">8dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>
